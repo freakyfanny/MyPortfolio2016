@@ -1,0 +1,24 @@
+# ignore contents of bower_components
+bower_components/*
+
+# unignore jquery folder
+!bower_components/jquery
+# ignore contents of jquery folder
+bower_components/jquery/*  
+# except dist
+!bower_components/jquery/dist
+
+
+# unignore bootstrap folder
+!bower_components/bootstrap
+# ignore contents of bootstrap folder
+bower_components/bootstrap/*  
+# except public (uncomment the following line if you are using the dist files):
+# !bower_components/bootstrap/dist
+# except less, js & fonts (uncomment the following 3 lines if you are using less ):
+# !bower_components/bootstrap/less
+# !bower_components/bootstrap/js
+# !bower_components/bootstrap/fonts
+
+# ignore contents of node
+node_modules/*

@@ -1,0 +1,22 @@
+{
+  "name": "portolio-angularjs-and-nodejs",
+  "description": "Portfolio of Fanny Petersson Sällberg.",
+  "main": "server.js",
+  "authors": [
+    "Fanny Petersson Sällberg"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-3.1.0.min": "https://code.jquery.com/jquery-3.1.0.min.js",
+    "jquery": "^3.1.0"
+  }
+}

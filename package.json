@@ -1,0 +1,52 @@
+{
+  "name": "portfolio-angularjs-and-nodejs",
+  "version": "0.0.0",
+  "description": "Portfolio of Fanny Petersson Sällberg.",
+  "main": "server.js",
+  "author": "Fanny Petersson Sällberg",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freakyfanny/portfolio2016.git"
+  },
+  "dependencies": {
+    "ejs": "^2.5.1",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "stylus-type-utils": "0.0.3",
+    "method-override": "^2.1.3"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "browser-sync": "^2.8.1",
+    "del": "^2.2.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-strip-debug": "^1.0.2",
+    "gulp-stylus": "^2.0.4",
+    "gulp-uglify": "^1.2.0",
+    "jeet": "^6.1.4",
+    "jquery": "^3.1.0",
+    "jshint-stylish": "^2.0.1",
+    "nib": "^1.1.0",
+    "node": "0.0.0",
+    "nodemon": "^1.10.2",
+    "rupture": "^0.6.1",
+    "yargs": "^3.18.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "bugs": {
+    "url": "https://github.com/freakyfanny/portfolio2016/issues"
+  },
+  "homepage": "https://github.com/freakyfanny/portfolio2016#readme",
+  "keywords": [
+    "angularjs",
+    "nodejs",
+    "portfolio"
+  ]
+}
